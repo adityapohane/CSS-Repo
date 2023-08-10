@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+    display: flex;
+    position: relative;
+    height: 100vh;
+
+}
+
+body{
+    background-color: rgb(189, 198, 207);
+} 
+nav{
+    background-color: navy;
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+   
+   
+}
+#head{
+    margin-top: 10px;
+    color: rgb(252, 252, 252);
+    letter-spacing: 1.5px;  
+}
+#facebook{
+    float: left;
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.upperul{
+  float: right;
+  margin-right: 90px;
+}
+.upperlist{
+    display: inline;
+    padding: 50px;  
+}
+ul li a{
+    color:white;
+}
+ul li a:hover{
+    color: crimson;
+}
+
+p{
+    font-size: 35px;
+    color: navy;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+img{
+    height:400px ;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+}
+#h1{
+    color: navy;
+   font-weight: bold;
+   background:none;
+
+}
+#div1{
+   margin-left: 1000px;
+   margin-top: -450px;
+    
+}
+#table1{
+    padding: 3x0px;
+    height: 300px;
+    width: 500px;
+    
+}
+p1{
+    font-size: 30px;
+    color: navy;
+}
+#DOB{
+    font-size: 10px;
+}
+#table2{
+    position: absolute;
+    top: 59px;
+    left: 900px;
+    
+}
+#btn{
+    font-size: medium;
+    background-color: darkgreen;
+    color: white;
+    margin-left: 90px;
+     border-radius: 1px;
+     padding: 5px;
+}
+.icon{
+    color: rgb(43, 43, 194);
+    font-size: 30px;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(43, 43, 194);
+    
+}
+/* This is footer code */
+.footer{
+    background-color: navy;
+     color: white; 
+     bottom: 0;
+     height: 300px;
+      width: 100vw; 
+      font-size: 16px;
+      display: flex;
+      padding: 40px;
+      bottom: 0px;
+  } 
+  .footer div{
+    padding-left: 181px;
+  }
+.footerlist{
+       padding-top: 20px;
+
+}
+
